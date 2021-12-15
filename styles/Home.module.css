@@ -1,0 +1,120 @@
+.container {
+  height: 80%;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.h3 {
+  margin-top: 1.5em;
+  font-size: 1.2rem;
+  font-weight: var(--Bold);
+  color: var(--Dark-blue);
+  text-align: center;
+}
+
+.summaryDetails {
+  margin-bottom: 0.5em;
+  padding: 1.5em;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: var(--Normal);
+  color: var(--Desaturated-blue);
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Very-pale-blue);
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.8em 0.5em;
+  border-radius: 10px;
+  margin-bottom: 1.3em;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+.subYearly {
+  margin-right: auto;
+}
+
+.subYearly p:nth-child(1) {
+  font-weight: var(--Bold);
+  font-size: 0.7rem;
+  margin-bottom: 0.5em;
+  color: var(--Dark-blue);
+}
+
+.subYearly p:nth-child(2) {
+  font-size: 0.8rem;
+  color: var(--Desaturated-blue);
+}
+
+.subChanger a {
+  font-size: 0.7rem;
+  font-weight: var(--Meduim);
+}
+
+.subChanger a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--Desaturated-blue);
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  font-weight: var(--Meduim);
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 0.7em 1em;
+  width: 240px;
+  border-radius: 10px;
+  background-color: var(--Bright-blue);
+  -webkit-box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+  box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+  background-color: var(--Desaturated-blue);
+  cursor: pointer;
+}
+.cancelOrder {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: var(--Bold);
+  color: var(--Desaturated-blue);
+  margin-bottom: 0.75rem;
+  width: 240px;
+
+  padding: 0.7em 1em;
+  width: 240px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+  box-shadow: -1px 15px 37px -16px rgba(0, 0, 0, 1);
+}
+
+.cancelOrder:hover {
+  color: var(--Dark-blue);
+  cursor: pointer;
+}
