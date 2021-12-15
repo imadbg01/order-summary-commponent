@@ -5,7 +5,7 @@ import iconMusic from "../img/icon-music.svg";
 const index = () => {
   return (
     <div className={styles.container}>
-      <Image src={hero} className={styles.img} />
+      <Image src={hero} className={styles.img} alt="hero !!" />
       <h3 className={styles.h3}>Order Summary</h3>
 
       <p className={styles.summaryDetails}>
@@ -14,7 +14,7 @@ const index = () => {
       </p>
 
       <div className={styles.subContainer}>
-        <Image src={iconMusic} className={styles.icon} />
+        <Image src={iconMusic} className={styles.icon} alt="music icon" />
         <div className={styles.subYearly}>
           <p>Annual Plan</p>
           <p>$59.99/year</p>
