@@ -1,10 +1,39 @@
-
+import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import hero from "../img/illustration-hero.svg";
+import iconMusic from "../img/icon-music.svg";
 const index = () => {
   return (
-    <div>
-      <h1>welcome next js </h1>
-    </div>
-  )
-}
+    <div className={styles.container}>
+      <Image src={hero} className={styles.img} />
+      <h3 className={styles.h3}>Order Summary</h3>
 
-export default index
+      <p className={styles.summaryDetails}>
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+
+      <div className={styles.subContainer}>
+        <Image src={iconMusic} className={styles.icon} />
+        <div className={styles.subYearly}>
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
+
+        <p className={styles.subChanger}>
+          <a href="#">Change</a>
+        </p>
+      </div>
+
+      <button className={styles.btn}>
+        Proceed to Payment
+      </button>
+
+      <button className={styles.cancelOrder}>
+        Cancel Order
+      </button>
+    </div>
+  );
+};
+
+export default index;
