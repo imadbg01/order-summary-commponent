@@ -4,7 +4,7 @@ import bg from "../img/pattern-background-desktop.svg";
 const Layout = ({ children }) => {
   return (
     <main className={styles.mainBg}>
-      <Image src={bg} className={styles.img} />
+      <Image src={bg} className={styles.img} alt="pattern background" />
       {children}
     </main>
   );

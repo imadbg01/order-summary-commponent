@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className={styles.container}>
       <Image src={hero} className={styles.img} alt="hero !!" />
-      <h3 className={styles.h3}>Order Summary</h3>
+      <h1 className={styles.h3}>Order Summary</h1>
 
       <p className={styles.summaryDetails}>
         You can now listen to millions of songs, audiobooks, and podcasts on any
@@ -25,13 +25,9 @@ const index = () => {
         </p>
       </div>
 
-      <button className={styles.btn}>
-        Proceed to Payment
-      </button>
+      <button className={styles.btn}>Proceed to Payment</button>
 
-      <button className={styles.cancelOrder}>
-        Cancel Order
-      </button>
+      <button className={styles.cancelOrder}>Cancel Order</button>
     </div>
   );
 };
