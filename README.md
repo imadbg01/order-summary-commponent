@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [order-summary-commponent-delta](https://order-summary-commponent-delta.vercel.app/)
+- Live Site URL: [order-summary-commponent](https://imadbg01.github.io/order-summary-commponent/)
 - Solution URL:[Github ](https://github.com/imadbg01/order-summary-commponent)
 
 ## My process
