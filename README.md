@@ -2,66 +2,105 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+---
+
+screenshot
+
+---
+
+![](./design/desktop-preview.jpg)
+
+---
+
+preview
+
+---
+
+![](./preview.gif)
+
 ## Table of contents
 
 - [Frontend Mentor - Order summary card solution](#frontend-mentor---order-summary-card-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-  - [The challenge](#the-challenge)
+    - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
-  - [Getting Started](#getting-started)
     - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
-## The challenge
+this is the solution that I came up width,
 
-Your challenge is to build out this order summary card component and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - See hover states for interactive elements
 
 ### Screenshot
 
-![active states demo](./active-states.jpg)
+![](preview.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://order-summary-commponent-delta.vercel.app/](https://order-summary-commponent-delta.vercel.app/)
+- Live Site URL: [order-summary-commponent-delta](https://order-summary-commponent-delta.vercel.app/)
+- Solution URL:[Github ](https://github.com/imadbg01/order-summary-commponent)
 
 ## My process
 
 ### Built with
 
+- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- [Next.js](https://nextjs.org/) - React framework
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned that refactoring it's important for better solutions.
+
+I learned that html is for structure and I need to ignore default styles that came with browser, in that in mind I forced myself to write more semantic elements and let look and feel to css and javascript.
+
+I ALSO Notice that I experienced some struggling to find name for classes. as author garbage solution I get to use CSS selectors to manipulate elements, it's add some complexity, but I gave it a try .
+
+```html
+<ul>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+  <li><a href="#"></a></li>
+</ul>
+```
+
+```css
+ul > li:nth-child(1) a {
+  color: var(--Some-Color);
+}
+ul > li:nth-child(2) a {
+  color: var(--Some-Color);
+}
+ul > li:nth-child(3) a {
+  color: var(--Some-Color);
+}
+```
+
+### Continued development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) - This helped me understand **border-radius**.
+
+## Author
+
+- Website - [imad bg](https://www.github.com/imadbg01)
+- Frontend Mentor - [@imadbg01](https://www.frontendmentor.io/profile/imadbg01)
+- Twitter - [@imadBg4](https://twitter.com/ImadBg4)
